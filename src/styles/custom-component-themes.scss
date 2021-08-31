@@ -1,0 +1,10 @@
+// import custom componenet themes
+// unofficial naming convention to support nice ordering of files in IDE
+// to see theme under the original style file of the componenent
+@import '../app/masthead/masthead-theme.scss';
+
+// you only have to add additional componenets here (instead of in every theme class)
+@mixin custom-components-theme($theme, $theme-success, $theme-warning, $theme-error) {
+  @include masthead-theme($theme, $theme-success, $theme-warning, $theme-error);
+}
+

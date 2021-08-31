@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dark-mode-61717": {
+      "hosting": {
+        "dark-mode-society": [
+          "dark-mode-61717"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dark-mode-61717"
+  }
+}
